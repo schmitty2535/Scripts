@@ -20,7 +20,7 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 sudo systemctl start vncserver-x11-serviced.service
 sudo systemctl enable vncserver-x11-serviced.service
-echo 'dtparam=spi=on' | sudo tee -a /boot/config.txt
+echo 'dtparam=spi=on' | sudo tee -a /boot/config.txt > /dev/null
 dtparam=spi=on >> /boot/config.txt
 dtparam=i2c_arm=on >> /boot/config.txt
 dtoverlay=pi3-disable-bt >> /boot/config.txt
