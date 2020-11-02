@@ -10,7 +10,7 @@ n|N|no|NO|No)
 echo Canceling 
 exit
 ;;
-*) echo Please enter a valid input(y or n)
+*) echo Please enter a valid input y or n
 esac
 done
 
@@ -32,5 +32,3 @@ sudo apt install -y nodejs
 sudo npm install -g pm2
 
 echo Complete
-
-
