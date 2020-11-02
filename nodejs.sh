@@ -14,7 +14,6 @@ exit
 esac
 done
 
-echo -ne '\n'
 echo You entered $CONFIRM. Continuing ...
 echo -ne '...                     (5%)\r'
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash >/dev/null
