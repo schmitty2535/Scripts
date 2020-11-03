@@ -16,7 +16,8 @@ done
 
 echo Beginning Setup Process
 
-sudo dpkg-reconfigure tzdata
+echo 'country=US' | sudo tee -a  /etc/wpa_supplicant/wpa_supplicant.conf  > /dev/null
+
 sudo systemctl enable ssh
 sudo systemctl start ssh
 sudo systemctl start vncserver-x11-serviced.service
