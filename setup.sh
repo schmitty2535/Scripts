@@ -2,7 +2,7 @@
 
 while true
 do
-echo -n "Please confirm that you wish to run setup as specified in the github documentation($
+echo -n "Please confirm that you wish to run setup as specified in the github documentation(y or n) :"
 read CONFIRM
 case $CONFIRM in
 y|Y|YES|yes|Yes) break ;;
