@@ -2,12 +2,12 @@
 
 while true
 do
-echo -n "Please confirm that you wish to run setup as specified in the github documentation(y or n) :"
+echo -n "Please confirm that you wish to run setup as specified in the github documentation($
 read CONFIRM
 case $CONFIRM in
 y|Y|YES|yes|Yes) break ;;
 n|N|no|NO|No)
-echo Canceling 
+echo Canceling
 exit
 ;;
 *) echo Please enter a valid input y or n
@@ -33,3 +33,5 @@ sudo apt install -y nodejs
 sudo npm install -g pm2
 
 echo Complete
+
+
