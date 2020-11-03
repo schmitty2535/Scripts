@@ -22,3 +22,4 @@ sudo apt install -y nodejs >/dev/null 2>&1
 echo -ne '..........              (100%)\r'
 echo -ne '\n'
 echo Complete
+
