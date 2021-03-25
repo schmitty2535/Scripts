@@ -15,11 +15,11 @@ esac
 done
 
 echo You entered $CONFIRM. Continuing ...
-echo -ne '...                     (5%)\r'
+echo '...                     (5%)\r'
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash >/dev/null 2>&1
-echo -ne '......                  (66%)\r'
+echo '......                  (66%)\r'
 sudo apt install -y nodejs >/dev/null 2>&1
-echo -ne '..........              (100%)\r'
-echo -ne '\n'
+echo '..........              (100%)\r'
+echo '\n'
 echo Complete
 
